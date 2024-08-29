@@ -6,11 +6,10 @@ This project is a web-based calculator built using React. The calculator support
 
 ## Demo 📸
 
-![Demo]()
-![Demo]()
-![FreeCodeCamp]()
+![Demo](./src/images/cal.png)
+![FreeCodeCamp](./src/images/f3.png)
 <br>
- [Live-link]()
+ [Live-link](https://calculator-section--gilded-moxie-f62af8.netlify.app/)
 
 ## Features ⭐
 - Basic arithmetic operations: addition, subtraction, multiplication, and division.
@@ -39,7 +38,6 @@ All the required user stories and tests have been successfully completed and pas
 This project was built as part of the FreeCodeCamp curriculum. The project requirements and the provided Calculator application example were sourced from the FreeCodeCamp website.
 
 ## Author 👩‍💻
-- Website: [website.com]( )
 - LinkedIn: [Mehria saqibi](https://www.linkedin.com/in/mehria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: [email](mosawermh@gmail.com)
 
