@@ -1,11 +1,17 @@
-
+import React from 'react';
+import { Provider } from 'react-redux';
+import store from './redux/store';
+import Calculator from './components/Calculator';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h2>hello mehria</h2>
-    </div>
+    <Provider store={store}>
+      <div className="container">
+        <h1>Calculator App</h1>
+        <Calculator />
+      </div>
+    </Provider>
   );
 }
 
