@@ -7,7 +7,7 @@ function Calculator() {
   const dispatch = useDispatch();
   const expression = useSelector((state) => state.expression);
   const answer = useSelector((state) => state.answer);
-  const [lastWasEquals, setLastWasEquals] = useState(false); // Track if last operation was "="
+  const [lastWasEquals, setLastWasEquals] = useState(false);
 
   const isOperator = (symbol) => /[*/+-]/.test(symbol);
 
@@ -22,7 +22,7 @@ function Calculator() {
     while (i >= 0) {
       if (['*', '/', '+'].includes(parts[i]) && isOperator(parts[i - 1])) {
         newParts.unshift(parts[i]);
-        let j = i - 1; // Use 'const' instead of 'let' for 'j'
+        let j = i - 1;
         while (j >= 0 && isOperator(parts[j])) {
           j -= 1;
         }
@@ -65,7 +65,6 @@ function Calculator() {
 
     if (isOperator(symbol)) {
       if (lastWasEquals) {
-        // Start new calculation with the result of previous calculation
         dispatch(updateExpression(`${answer} ${symbol} `));
         setLastWasEquals(false);
       } else {
@@ -76,7 +75,7 @@ function Calculator() {
 
     if (symbol === '=') {
       calculate();
-      setLastWasEquals(true); // Set flag to true after "="
+      setLastWasEquals(true);
       return;
     }
 
