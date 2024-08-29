@@ -1,27 +1,29 @@
-# Simple React Markdown Previewer 🚀🚀
+# Calculator Project 🚀🚀
 
 ## Description 📝
-This is a simple React-based Markdown previewer, built as part of the FreeCodeCamp curriculum. The application allows users to input Markdown text in a textarea, and it automatically renders the corresponding HTML preview in a separate div.
+This project is a web-based calculator built using React. The calculator supports basic arithmetic operations and handles various edge cases, ensuring a smooth and intuitive user experience. The project fulfills the user stories required to pass all tests, and it uses formula logic to evaluate expressions, maintaining the order of operations.
 
 
 ## Demo 📸
 
-![Demo](./src/image/r1.png)
-![Demo](./src/image/r2.png)
-![FreeCodeCamp](./src/image/f1.png)
+![Demo]()
+![Demo]()
+![FreeCodeCamp]()
 <br>
- [Live-link](https://markdown-section--luminous-bublanina-3f1736.netlify.app/)
+ [Live-link]()
 
 ## Features ⭐
-- Users can enter Markdown text in the textarea with the ID "editor".
-- The HTML preview is displayed in the div with the ID "preview".
-- The preview updates in real-time as the user types in the textarea.
-- The default text in the textarea includes valid Markdown representing various elements like headings, links, code blocks, lists, blockquotes, images, and bold text.
-- The default Markdown is rendered as HTML in the preview when the app first loads.
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Supports input of decimal numbers.
+- Handles consecutive operator inputs by using the last entered operator.
+- Clears the display with a single button click.
+- Displays the result of the computation when the equals button is pressed.
+- Precision handling for operations resulting in decimal values.
+- User-friendly and accessible design.
+
 
 ## Technologies Used 🛠️
-- React
-- Marked library (for converting Markdown to HTML)
+- React js 
 - HTML, CSS, and JavaScript
 
 ## How to Run the Project
@@ -34,10 +36,10 @@ This is a simple React-based Markdown previewer, built as part of the FreeCodeCa
 All the required user stories and tests have been successfully completed and passed.
 
 ## Acknowledgments 📝
-This project was built as part of the FreeCodeCamp curriculum. The project requirements and the provided Markdown previewer example were sourced from the FreeCodeCamp website.
+This project was built as part of the FreeCodeCamp curriculum. The project requirements and the provided Calculator application example were sourced from the FreeCodeCamp website.
 
 ## Author 👩‍💻
-- Website: [website.com]( https://markdown-section--luminous-bublanina-3f1736.netlify.app/)
+- Website: [website.com]( )
 - LinkedIn: [Mehria saqibi](https://www.linkedin.com/in/mehria-saqibi-a386a41a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: [email](mosawermh@gmail.com)
 
