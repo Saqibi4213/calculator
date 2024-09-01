@@ -14,6 +14,7 @@
   height: 100vh;
   padding: 20px;
   background-color: rgb(31, 44, 44);
+  color: #f8eded;
 }
 
 #calculator {
@@ -33,6 +34,7 @@
   width: 100%;
   max-width: 400px;
   box-sizing: border-box;
+  color: #f8eded;
 }
 
 button {
